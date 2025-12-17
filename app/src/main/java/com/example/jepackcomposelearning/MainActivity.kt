@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
 //                    ProfileCard("Ritank Saha",16,Color.Magenta)
 
 
-                    CounterScreen()
+                    CounterExample()
                 }
             }
         }
