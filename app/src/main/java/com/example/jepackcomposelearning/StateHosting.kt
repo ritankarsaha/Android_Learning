@@ -21,7 +21,6 @@ fun GoodTextField(text: String, onTextChange:(String)->Unit) {
 
 }
 
-
 // code in this composable is passed from the earlier composable
 @Composable
 fun ParentComposable(modifier: Modifier = Modifier) {
