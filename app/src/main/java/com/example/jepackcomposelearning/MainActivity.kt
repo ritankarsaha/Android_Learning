@@ -14,6 +14,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.graphics.Color
 import com.example.jepackcomposelearning.ui.theme.JepackComposeLearningTheme
+import com.example.jepackcomposelearning.screens.HomeScreen
+import com.example.jepackcomposelearning.screens.HomeScreen1
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,22 +23,11 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JepackComposeLearningTheme {
+                HomeScreen()
 
-                Column {
-
-//                    Greet("Ritankar")
-//                    Greet("Ritankar")
-//                    ProfileCard("Ritank Saha",16,Color.Magenta)
-
-
-//                    CounterExample()
-                    ToggleExample()
-                }
+                HomeScreen1()
             }
         }
-
-
-
     }
 }
 
